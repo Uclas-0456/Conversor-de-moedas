@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <img  class="logo" src="./logo.gif" alt="Logo">
+    <main>
+        <label>
+            Converter  <b>de</b>
+            <select>
+                <option>
+                    R$ - Real Brasileiro
+                </option>
+            </select>
+        </label>
+        <label>
+            Converter <b>para</b>
+            <select class="moeda">
+                <option value="dolar">US$ - Dólar Americano</option>
+                <option value="euro"> € - Euro</option>
+            </select>
+        </label>
+        <label>
+            Valor:
+            <input class="valor-input" type="number" placeholder="500,00">
+        </label>
+        <button class="converter">Converter</button>
+        <section>
+            <div class="resultado">
+                <img src="./Real.png" alt="Real">
+                <p class="charizard">Real</p>
+                <p class="pikachu">R$ 0,00</p>
+            </div>
+
+            <img  class="seta" src="./Vector.png" alt="Seta">
+
+            <div class="transacao">
+                <img src="./Dólar.png" alt="Dólar Americano">
+                <p class="charizard">Dólar Americano</p>
+                <p class="blastoide">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+<script src="Java.js"></script>
+
+</html>
