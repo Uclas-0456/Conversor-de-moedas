@@ -1,5 +1,5 @@
      const conversorbutton = document.querySelector(".converter");
-     const moedaSelect = document.querySelector(".moeda").value
+     const moedaSelect = document.querySelector(".moeda");
      
          
 function conversor(){
@@ -11,7 +11,7 @@ function conversor(){
 
 
     console.log(moedaSelect);
-    const dolarToday = 5.2;
+    const dolarToday = 4.97;
     const euroToday = 6.2;
 
     
@@ -41,4 +41,32 @@ function conversor(){
 
  }
   
+    function changecurrency(){
+
+        const charizard = document.querySelector(".transacao .charizard");
+        const image= document.querySelector(".currency-img")
+
+          if(moedaSelect.value == "dolar"){
+
+        charizard.innerHTML ="Dólar americano"
+        image.src = "./Dólar.png"
+
+          }
+
+        if(moedaSelect.value == "euro"){
+
+         charizard.innerHTML = "Euro";
+            image.src = "./Euro.png"
+
+          }
+          
+          
+          conversor()
+
+     
+
+    }
+
+
+    moedaSelect.addEventListener("change", changecurrency )
     conversorbutton.addEventListener ("click", conversor);
