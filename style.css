@@ -1,36 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-     outline: none;
-}
+    outline: none;
+ }
 
-body{
+body {
     background-color: #8A51FC;
 }
 
-.logo{
-    width:300px;
+.logo {
+    width: 300px;
     margin: 20px auto;
     display: block;
 }
 
-main{
-    width:375px;
+main {
+    width: 375px;
     border-radius: 20px;
-    background:#F4F4F4;
+    background: #F4F4F4;
     margin: 0px auto 40px;
     padding: 44px 24px 23px;
 }
 
-label{
+label {
     color: #777777;
     font-size: 14px;
     font-weight: 400;
 }
 
-select , input{
+select,
+input {
     border-radius: 4px;
     background: #F4F4F4;
     border: 1px solid #BBBBBB;
@@ -41,12 +42,12 @@ select , input{
     padding-left: 18px;
     font-size: 16px;
     font-weight: 700;
-    color:#555555;
+    color: #555555;
     cursor: pointer;
 }
 
-button{
-    width:100%;
+button {
+    width: 100%;
     border-radius: 5px;
     background: #772FD3;
     border: none;
@@ -57,45 +58,45 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
-button:active{
+
+button:active {
     opacity: 0.6;
 }
 
-section{
+section {
     border-radius: 20px;
     border: 1px solid #772FD3;
-    margin-top:36px;
+    margin-top: 36px;
     padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+
 }
 
-.seta{
+.seta {
     margin: 15px 0px;
 }
 
-.transacao{
-    display:flex;
+.transacao {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;   
-  
+    gap: 4px;
+
 }
 
-.charizard{
+.charizard {
     font-size: 14px;
     color: #777777;
 }
 
-.pikachu, .blastoide{
+.pikachu, .blastoide {
     font-size: 20px;
     color: #555555;
     font-weight: 700;
 }
-
 

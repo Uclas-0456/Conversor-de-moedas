@@ -11,8 +11,8 @@ function conversor(){
 
 
     console.log(moedaSelect);
-    const dolarToday = 4.97;
-    const euroToday = 6.2;
+    const dolarToday = 5.35;
+    const euroToday = 5.97;
 
     
 
